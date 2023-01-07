@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+  margin-top: 2em;
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+  background-color: hsl(27, 66%, 92%);
+}
+
+hr{
+  border-color: hsl(33, 100%, 98%);
+  margin: 2em 0;
+}
+
+.bar-blue{
+  background-color: hsl(186, 34%, 60%);
+}
+
+.bar-blue:hover{
+  cursor: pointer;
+  background-color: hsl(186, 38%, 75%);
+  transition: .5s ease;
+}
+
+.bar-red{
+  background-color: hsl(10, 79%, 65%);
+}
+
+.bar-red:hover{
+  cursor: pointer;
+  background-color: hsl(10, 68%, 81%);
+  transition: .5s ease;
+}
+
+.block{
+  display: block;
+}
+
+.none{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    font-size: 16px;
+  }
+}
