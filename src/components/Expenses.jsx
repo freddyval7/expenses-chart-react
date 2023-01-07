@@ -55,7 +55,7 @@ function Expenses() {
       let isCancelled = false
       
       const obtJSON = async () => {
-        const response = await fetch('./data.json')
+        const response = await fetch('../public/data.json')
         const result = await response.json()
         if(!isCancelled){
             const arrayExpenses = result.map(expense => {
