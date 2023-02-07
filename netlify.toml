@@ -1,3 +1,0 @@
-[functions]
-  directory = "public"
-  included_files = ["data.json"]
